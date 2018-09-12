@@ -13,6 +13,6 @@ def input_to_index(num)
 end
 
 def move(board, index, char = "X")
-  update_array_at_with(board, index, char)
+  board[index] = char
 end
   
